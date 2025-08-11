@@ -1,0 +1,1690 @@
+@charset "UTF-8";
+
+/* 共通部分
+------------------------------- */
+html {
+    font-size: 100%;
+}
+body{
+    font-family: "Zen Maru Gothic", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.7;
+    color: #676767;
+    margin: 0;
+    background-color: #FBF8F3;
+    letter-spacing: 0.08vw;
+    font-size: 1.2vw;
+}
+
+a {
+    font-family: "Zen Maru Gothic", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 1.2vw;
+}
+img {
+    object-fit: fill;
+    object-position: center center;
+    width: 100%;
+}
+
+.logo{
+    object-fit: contain;
+}
+
+p{
+    font-family: "Zen Maru Gothic", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.midasi {
+    font-size: 3vw;
+    font-weight: 600;
+    line-height: 4vw;
+    text-align: center;
+}
+
+.midasi_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vw;
+    margin-bottom: 3vw;
+}
+
+.midasi_box .text {
+    margin-top: 2vw;
+}
+
+.midasi_box img {
+    width: 30vw;
+}
+
+.roma {
+    color: #0086C9;
+    font-size: 1.2vw;
+    text-align: center;
+    font-weight: 600;
+}
+
+.komidasi {
+    font-size: 2vw;
+}
+
+
+.text{
+    font-family: "Zen Maru Gothic", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+a {
+    text-decoration-color: none;  /*リンクの色を消す*/
+  }
+
+  html,body {
+    overflow-x: hidden;
+  }
+
+/*追従*/
+
+.form{
+    position: fixed;
+    z-index: 99999;
+    bottom: 50px;
+    right: 50px;
+    width: 350px;
+}
+
+.inner {
+    width: 100%;
+}
+
+.pc {
+    display: block;
+}
+
+.sp {
+    display: none;
+}
+
+/*画像の下の隙間を消すコード*/
+
+
+div{
+	text-align:center;
+}
+img{
+	vertical-align:top;
+}
+
+
+
+/* button
+------------------------------- */
+
+
+/* HEADER
+------------------------------- */
+
+.pc_header {
+    display: block;
+}
+
+.top_sp {
+    display: none;
+}
+
+.pc_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw 3vw;
+}
+
+.pc_header .logo {
+    width: 15vw;
+}
+
+
+
+.pc_menu {
+    display: flex;
+    align-items: center;
+
+}
+
+.pc_menu a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: solid 0.15vw #CFCFCF;
+    width: 8vw;
+}
+
+.pc_menu img {
+    width: 3.5vw;
+}
+
+.pc_menu .contact_btn {
+    background-color: #0086C9;
+    border-radius: 100vw;
+    padding: 1vw 2vw;
+    color: #ffffff;
+    margin-left: 1.5vw;
+    font-weight: 500;
+    width: 14vw;
+}
+
+.pc_menu p{
+    font-size: 1.12vw;
+    color: #676767;
+}
+
+
+.pc_menu .blue {
+    width: 210px;
+}
+
+/* top_ga------------------------------- */
+
+.top_ga {
+   padding: 0 3vw;
+   position: relative;
+   margin-bottom: 10vw;
+}
+
+.top_ga .no1 {
+    background-image: url(../images/20250807_1606.png);
+    background-size: contain;
+    width: 15vw;
+    height: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -5vw;
+    right: 12vw;
+    z-index: 1;
+}
+
+.top_ga .no1 a {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.8vw;
+    line-height: 2.6vw;
+    margin-top: 1vw;
+}
+
+.top_ga .no2 {
+    background-image: url(../images/20250807_1607.png);
+    background-size: contain;
+    width: 13vw;
+    height: 11vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -5vw;
+    right: 1vw;
+} 
+
+.top_ga .no2 a {
+    color: #0086C9;
+    text-align: center;
+    font-size: 1.8vw;
+    line-height: 2.6vw;
+    font-weight: 600;
+}
+
+
+
+
+/* area1------------------------------- */
+
+.area1 {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 2vw;
+    padding: 5vw 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.area1 .midasi {
+    color: #0086C9;
+    margin-bottom: 2vw;
+    text-align: start;
+}
+
+.area1 .container {
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+}
+
+.area1 .l {
+    width: fit-content;
+}
+
+.area1 .r {
+    width: fit-content;
+}
+
+.area1 .container img {
+    width: 20vw;
+}
+
+.area1 .container_2 {
+    display: flex;
+    gap: 2vw;
+    margin-top: 5vw;
+}
+
+.area1 .container_2 .img {
+    width: 33%;
+}
+
+.area1 .container_3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.area1 .container_3 img {
+    width: 1.5vw;
+    margin: 2vw 0;
+}
+
+.area1 .container_3 p {
+    text-align: center;
+}
+
+.b {
+    font-size: 2vw;
+    font-weight: 600;
+    border-bottom: #0086C9 solid 0.3vw;
+}
+
+
+/* area2------------------------------- */
+
+.area2 {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8vw;
+}
+
+.area2 .box {
+    display: flex;
+    gap: 3vw;
+    align-items: center;
+}
+
+.area2 .box  .l {
+    width: 35%;
+}
+
+.area2 .box .r {
+    width: 65%;
+}
+
+.area2 iframe {
+    width: 70%;
+    height: 28vw;
+    border-radius: 2vw;
+    margin-top: 5vw;
+}
+
+
+
+
+
+
+
+/* area3------------------------------- */
+
+.area3 {
+    margin: 0 auto;
+    background-color: #0086C910;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8vw;
+    padding: 5vw 0;
+}
+
+.area3 .container {
+    display: flex;
+    width: 70%;
+    gap: 2vw;
+}
+
+.area3 .container .box {
+    background-color: #ffffff;
+    border-radius: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3vw 2vw;
+
+}
+
+.area3 .container .box p{
+    text-align: center;
+}
+
+.area3 .container .box img {
+    margin-bottom: 1.5vw;
+}
+
+.area3 .komidasi {
+    color: #0086C9;
+    font-weight: 600;
+    font-size: 1.5vw;
+    margin-bottom: 1vw;
+}
+
+
+/* area4------------------------------- */
+
+.area4 {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8vw;
+}
+
+.area4 .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 3列で均等幅 */
+    gap: 1vw;
+    margin-bottom: 5vw;
+    width: 100%;
+}
+
+.area4 .container .box  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.area4 .container .box .komidasi {
+    background-color: #0086C9;
+    border-radius: 100vw;
+    padding: 0.2vw 2vw;
+    color: #ffffff;
+    font-size: 1.2vw;
+    width: fit-content;
+    text-align: center;
+    margin-bottom: -1vw;
+    z-index: 1;
+}
+
+.area4 .container .box .text {
+    font-weight: 600;
+    font-size: 1.5vw;
+    background-color: #ffffff;
+    border-radius: 2vw;
+    padding: 2vw 3vw;
+    text-align: center;
+    width: 100%;
+}
+
+.area4 .container_2 {
+    background-color: #0086C9;
+    border-radius: 2vw;
+    padding: 3vw;
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+}
+
+.area4 .container_2 .l {
+    width:50%;
+}
+
+.area4 .container_2 .r {
+    width: 45%;
+}
+
+
+.area4 .container_2 .komidasi_box {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+    margin-bottom: 2vw;
+}
+
+.area4 .container_2 .komidasi {
+    color: #0086C9;
+    font-weight: 600;
+    background-color: #ffff;
+    width: fit-content;
+    padding: 0 1vw;
+}
+
+.area4 .container_2 .text {
+    color: #ffffff;
+    width: 80%;
+}
+
+
+
+/* area5------------------------------- */
+
+.area5 {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8vw;
+}
+
+
+/* area6------------------------------- */
+
+.area6 {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 2vw;
+    padding: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.area6 .box {
+    display: flex;
+    gap: 5vw;
+    padding:  2vw;
+}
+
+
+
+
+
+/* area7------------------------------- */
+
+.area7 {
+    margin: 0 auto;
+    background-color: #0086C910;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8vw;
+    padding: 5vw 0;
+}
+
+.area7 .container {
+    width: 70%;
+    display: flex;
+    gap: 5vw;
+}
+
+.area7 .container .box {
+    width: 33%;
+}
+
+.area7 .container .r {
+    background-color: #ffffff;
+    border-radius: 2vw;
+    padding: 2vw;
+    padding-top: 3vw;
+    margin-top: -1.5vw;
+    width: 100%;
+}
+
+
+
+/* area8------------------------------- */
+
+.area8 {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8vw;
+}
+
+.area8 .container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+    width: 80%;
+}
+
+.area8 .container  .box {
+    background-color: #ffffff;
+    border-radius: 2vw;
+    padding: 1vw 2vw;
+}
+
+.area8 .container  .box .l {
+    border-bottom: dashed #CFCFCF 0.2vw;
+    display: flex;
+}
+
+.area8 .container  .box .r {
+    display: flex;
+}
+
+.area8 .container  .box  .text {
+    margin-top: 0.5vw;
+}
+
+.qa {
+    font-size: 1.8vw;
+    color: #0086C9;
+    font-weight: 600;
+    width: 5%;
+}
+
+.area8 .illust {
+    width: 60%;
+    margin: 5vw 0;
+}
+
+
+
+/* area9------------------------------- */
+
+.area9 {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 2vw;
+    padding: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+/* contact------------------------------- */
+
+.contact .inner {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.contact .required {
+    background-color: #EF7676;
+    border-radius: 0.3vw;
+    color: #ffff;
+    margin-left: 1vw;
+    padding: 0.1vw 0.3vw;
+    font-size: 1.2vw;
+}
+
+
+
+form {
+    width: 40svw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+form div{
+    margin-bottom: 1.5vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+}
+
+
+
+input[type="submit"]{
+    background-image: url(../images/20241101_1709.png);
+    background-size: cover;
+    width: 350px;
+    height: 72px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select{
+    background: #eeeeee;
+    padding: 0.5vw;
+    height: 2.8vw;
+    border-radius: 0.5vw;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select{
+    width: 100%;
+}
+
+textarea{
+    width: 100%;
+    height: 10vw;
+}
+
+input[type="submit"]{
+    border: none;
+    cursor: pointer;
+    line-height: 1;
+}
+
+form .required {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+form button {
+    background-color: #0086C9;
+    padding: 0.5vw 5vw;
+    border-radius: 100vw;
+    color: #ffffff;
+    margin-top: 2vw;
+}
+
+.select_wrapper {
+    position: relative;
+}
+
+.select_wrapper::after {
+    content: "";
+    position: absolute;
+    top: 58px;
+    right: 16px;
+    width: 12px;
+    height: 12px;
+    border-right: 2px solid #333;
+    border-bottom: 2px solid #333;
+    transform: rotate(45deg);
+}
+
+select {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.checkbox {
+    display: flex;
+    align-items: baseline;
+}
+
+.checkbox label {
+    margin-left: 10px;
+}
+
+.area9 .container {
+    margin-top: 8vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.area9 .container .img {
+    width: 70%;
+}
+
+
+
+
+
+
+/* area10------------------------------- */
+
+.area10 {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8vw;
+}
+
+.area10 .box {
+    display: flex;
+    align-items: center;
+    gap: 5vw;
+}
+
+.area10 .l {
+    width: 50%;
+    height: 30vw;
+}
+
+.area10 .r {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.area10 .l img {
+    object-fit: cover;
+    height: 100%;
+    border-radius: 2vw;
+}
+.area10 .text_box_2 {
+    background-color: #ffffff;
+    border-radius: 2vw;
+    padding: 2vw;
+}
+
+.area10 .text_box_2  .up {
+    border-bottom: dashed #CFCFCF 0.2vw;
+    padding-bottom: 0.5vw;
+    margin-bottom: 0.5vw;
+}
+
+
+/* footer------------------------------- */
+
+.page-fotter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#0086C9;
+    padding: 5vw 0;
+    margin-top: 5vw;
+}
+
+.copy {
+    color: #ffffff;
+    font-size: 1.1vw;
+    text-align: center;
+}
+
+.page-fotter .container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.page-fotter .text {
+    color: #ffffff;
+}
+
+.page-fotter .lite {
+    color: #ffffff80;
+}
+
+.page-fotter .box {
+    margin-bottom: 5vw;
+}
+
+.page-fotter .box img {
+    width: 30vw;
+    margin-bottom: 2vw;
+}
+
+.page-fotter .box_2 {
+     display: grid;
+  grid-template-columns: 10vw 13vw 1fr; /* PC: 1列目200px, 2列目150px, 残りは可変 */
+    gap: 3vw;
+}
+
+.page-fotter .menu {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+    margin-bottom: 5vw;
+}
+
+
+
+
+
+/* アニメーション------------------------------------------------------------------------------ */
+
+
+
+.fade-up {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1.6s ease-out, transform 1.5s ease-out;
+}
+
+.fade-up.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+
+.fade-in-up {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1.5s ease-out, transform 1.5s ease-out;
+  }
+  .fade-in-up.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+
+/*モバイル版
+--------------------------------------------------------------------------モバイル版*/
+@media (max-width: 600px) {
+
+
+
+    body {
+        font-size: 4vw;
+    }
+
+
+    .pc {
+        display: none;
+    }
+
+    .sp {
+        display: block;
+    }
+
+
+    .midasi {
+        font-size: 8vw;
+        line-height: 10vw;
+    }
+
+    .roma {
+        font-size: 4vw;
+    }
+
+    .midasi_box {
+        gap: 3vw;
+        margin-bottom: 10vw;
+    } 
+
+    .midasi_box img {
+        width: 60vw;
+    }
+
+    .midasi_box .text {
+        margin-top: 5vw;
+    }
+
+    .komidasi {
+        font-size: 6vw;
+    }
+
+
+    /* ヘッダー------------------------------- */
+
+    .pc_header {
+        display: none;
+    }
+   
+    .pc_menu {
+        display: none;
+    }
+
+    .header {
+        height: auto;
+    }
+
+    .top_ga {
+        margin-top: 3vw;
+        padding: 0vw;
+        margin-bottom: 14vw;
+    }
+
+
+    .top_sp{
+        display: block;
+        background-size: cover;
+        padding-top: 10px;
+        height: 70px;
+        width: 100%;
+
+    }
+
+
+    .top_sp h1 {
+        margin-top: 520px;
+        margin-left: 5%;
+        font-size: 32px;
+        line-height: 1.5em;
+    }
+
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 10px 0 20px;
+    }
+
+    .logo{
+        width: 38vw;
+        height: auto;
+    }
+
+    .header .menu {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .top_ga .no1 {
+        width: 30vw;
+        height: 30vw;
+        right: 30vw;
+        bottom: -8vw;
+    }
+
+    .top_ga .no2 {
+        width: 25vw;
+        height: 22vw;
+        right: 8vw;
+        bottom: -8vw;
+    
+    }
+
+    .top_ga .no1 a {
+        font-size: 4vw;
+        line-height: 5vw;
+    }
+
+    .top_ga .no2 a {
+        font-size: 4vw;
+    }
+
+
+
+
+
+
+    /* ハンバーガーボタンのデザイン */
+    .drawer__button {
+        position: relative;
+        width: 50px;
+        height: 50px;
+        border: none;
+        cursor: pointer;
+        z-index: 999; /* メニューを開いている時もクリックできるよう設定 */
+    }
+    /* ハンバーガーボタン内の線 */
+    .drawer__button > span {
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 1.5rem;
+        height: 3px;
+        background-color: #0086C9;
+        border-radius: 5vw;
+        transform: translateX(-50%);
+    }
+    .drawer__button > span:first-child {
+        transform: translate(-50%, calc(-50% - 0.5rem));
+        transition: transform 0.3s ease;
+    }
+    .drawer__button > span:nth-child(2) {
+        transform: translate(-50%, -50%);
+        transition: opacity 0.3s ease;
+    }
+    .drawer__button > span:last-child {
+        transform: translate(-50%, calc(-50% + 0.5rem));
+        transition: transform 0.3s ease;
+    }
+    /* 展開時のデザイン */
+    .drawer__button.active > span:first-child {
+        transform: translate(-50%, -50%) rotate(-45deg);
+    }
+    .drawer__button.active > span:nth-child(2) {
+        opacity: 0;
+    }
+    .drawer__button.active > span:last-child {
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+    /* メニューのデザイン */
+    .drawer__nav {
+        position: fixed; /* 追従ヘッダーなどでも表示できるよう設定しておく */
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.5);
+        transition: opacity 0.3s ease;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .drawer__nav.active {
+        opacity: 1;
+        visibility: visible;
+        z-index: 10;
+        width: 100%;
+    }
+
+    .drawer__nav__inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        padding: 20vw 0;
+        margin: 0 0 0 auto;
+        overflow: scroll;
+        transform: translateX(100%);
+        transition: transform 0.3s ease;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .drawer__nav.active .drawer__nav__inner {
+        transform: translateX(0);
+    }
+
+    .drawer__nav__inner img {
+        margin-bottom: 3vw;
+        width: 20vw;
+    }
+
+    .drawer__nav__inner .logo {
+        width: 50vw;
+        margin-bottom: 5vw;
+    }
+
+    .drawer__nav__menu {
+        list-style: none;
+        padding-left: 0;
+        width: 100%;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .drawer__nav__menu .box {
+        display: grid;
+        gap: 12vw;
+        grid-template-columns: 1fr 1fr;
+        margin: 15vw 0;
+    }
+
+    .drawer__nav__menu .box a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .drawer__nav__menu  li p {
+        font-size: 4vw;
+        color: #676767;
+    }
+
+    .drawer__nav__link {
+        display: block;
+        color: black;
+        text-decoration: none;
+        padding: 1rem 1rem;
+        text-align: center;
+    }
+
+    .drawer__nav__item_blue  {
+        margin-top: 5vw;
+    }
+    .drawer__nav__item_blue a {
+        background-color: #0086C9;
+        border-radius: 10vw;
+        padding: 3vw 15vw;
+        color: #ffffff;
+        font-size: 4vw;
+    }
+
+
+    .top_sp .blue {
+        width: 300px;
+    }
+
+    .top_sp .blue img {
+        height: auto;
+        width: 250px;
+    }
+
+
+    .top_sp .logo_box {
+        margin-bottom: 30px;
+    }
+
+
+    /* ハンバーガーメニュー展開時、背景を固定 */
+    body.active {
+        height: 100%;
+        overflow: hidden;
+    }
+
+
+
+
+    .drawer__nav__inner .tel_a {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        background-color: rgb(239, 73, 43);
+        padding: 15px 0;
+        border-radius: 100px;
+        color: #ffff;
+    }
+
+    .drawer__nav__inner .tel_a .no2 {
+        font-size: 20px;
+    }
+
+    .drawer__nav__inner .tel_box {
+        display: flex;
+        align-items: center;
+        padding-top: 5px;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .drawer__nav__inner .tel_box .tel {
+        font-size: 35px;
+        padding: 0 10px 0 10px;
+        line-height: 1em;
+        margin-left: 25px;
+    }
+
+    .drawer__nav__inner .tel_box .tel_icon {
+        position: absolute;
+        top: 10px;
+        left: 0px;
+        width: 25px;
+    }
+
+    .drawer__nav__inner .yajirusi {
+        position: absolute;
+        top: 10px;
+        left: 295px;
+        width: 20px;
+        height: auto;
+    }
+
+    .drawer__nav__inner .page-fotter {
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+    }
+
+
+
+    /* area1------------------------------- */
+
+    .area1 {
+        width: 90%;
+        padding: 12vw 5vw;
+    }
+
+    .area1 .midasi {
+        text-align: center;
+        margin-bottom: 5vw;
+    }
+
+    .area1 .text {
+        text-align: center;
+    }
+
+    .area1 .container {
+        flex-direction: column;
+        width: 100%;
+        gap: 8vw;
+    }
+
+    .area1 .container img {
+        width: 60vw;
+    }
+
+    .area1 .container_2 {
+        flex-direction: column;
+        margin-top: 12vw;
+    }
+
+    .area1 .container_2 .img {
+        width: 100%;
+    }
+
+    .area1 .container_3 img {
+        width: 6.5vw;
+        margin: 5vw 0;
+    }
+
+    .b {
+        font-size: 5vw;
+        border-bottom: #0086C9 solid 1vw;
+    }
+
+
+    /* area2------------------------------- */
+
+    .area2 {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 12vw;
+    }
+
+    .area2 .box {
+        flex-direction: column;
+        gap: 8vw;
+    }
+
+    .area2 .box .l {
+        width: 70%;
+    }
+
+    .area2 .box .r {
+        width: 90%;
+    }
+
+    .area2 iframe {
+        width: 90%;
+        height: 46vw;
+        margin-top: 12vw;
+    }
+    /* area3------------------------------- */
+
+
+    .area3 {
+        margin: 0 auto;
+        background-color: #0086C910;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 12vw;
+        padding: 12vw 0;
+    }
+
+    .area3 .container {
+        display: flex;
+        width: 90%;
+        gap: 8vw;
+        flex-direction: column;
+    }
+
+    .area3 .container .box {
+        padding: 8vw 8vw;
+    }
+
+    .area3 .komidasi {
+        font-size: 6vw;
+        margin-bottom: 3vw;
+    }
+
+    .area3 .container .box img {
+        margin-bottom: 4vw;
+    }
+
+    /* area4------------------------------- */
+
+    .area4 {
+        margin-top: 12vw;
+        width: 90%;
+    }
+
+    .area4 .container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3vw;
+    }
+
+    .area4 .container .box .komidasi {
+        padding: 0.2vw 4vw;
+        font-size: 4vw;
+        margin-bottom: -3vw;
+    }
+
+    .area4 .container .box .text {
+        font-size: 4.5vw;
+        padding: 5vw 3vw;
+    }
+
+    .area4 .container_2 {
+        padding: 12vw 5vw;
+        flex-direction: column;
+        gap: 5vw;
+    }
+
+    .area4 .container_2 .l {
+        width: 100%;
+    }
+
+    .area4 .container_2 .r {
+        width: 90%;
+    }
+
+    .area4 .container_2 .komidasi_box {
+        gap: 2vw;
+        margin-bottom: 5vw;
+    }
+
+    .area4 .container_2 .text {
+        width: 100%;
+    }
+
+    /* area5------------------------------- */
+
+    .area5 {
+        width: 90%;
+        margin-top: 12vw;
+    }
+
+    /* area6------------------------------- */
+
+    .area6 {
+        width: 90%;
+        padding: 12vw 5vw;
+    }
+
+    .area6 .box {
+       flex-direction: column-reverse;
+       align-items: center;
+       gap: 8vw;
+    }
+
+    .area6 .box .r {
+        width: 80%;
+    }
+
+
+    /* area7------------------------------- */
+
+    .area7 {
+        margin-top: 12vw;
+        padding: 12vw 0;
+    }
+
+    .area7 .midasi_box .text{
+        text-align: center;
+    }
+    .area7 .container {
+        flex-direction: column;
+    }
+
+    .area7 .container .box {
+        width: 100%;
+    }
+
+    .area7 .container .r {
+        padding: 5vw;
+    }
+
+
+    /* area8------------------------------- */
+
+    .area8 {
+        width: 90%;
+        margin-top: 12vw;
+    }
+
+    .area8 .container {
+        width: 100%;
+        gap: 3vw;
+    }
+    .area8 .container .box {
+        padding: 3vw;
+    }
+
+    .qa {
+        font-size: 5vw;
+        width: 8%;
+    }
+
+    .area8 .container .box .text {
+        width: 92%;
+    }
+
+    .area8 .container .box .l {
+        border-bottom: dashed #CFCFCF 0.5vw;
+        padding-bottom: 1vw;
+        margin-bottom: 1vw;
+    }
+
+    .area8 .illust {
+        width: 80%;
+        margin: 8vw 0;
+    }
+
+    /* area9------------------------------- */
+
+
+
+    .area9 {
+        width: 90%;
+        padding: 12vw 5vw;
+    }
+
+    .area9 .container {
+        margin-top: 12vw;
+    }
+
+    .area9 .container .img {
+        width: 45%;
+    }
+
+ 
+    /* area10------------------------------- */
+
+    .area10 {
+        margin-top: 12vw;
+        width: 90%;
+    }
+
+    .area10 .box {
+        flex-direction: column;
+        gap: 10vw;
+    }
+
+    .area10 .l {
+        width: 90%;
+        height: 90vw;
+    }
+ 
+    .area10 .r {
+        width: 90%;
+        gap: 8vw;
+    }
+    /* area3_1------------------------------- */
+
+    .area3_1 a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        background-color: rgb(239, 73, 43);
+        margin: 20px 0;
+        padding: 15px 0;
+        border-radius: 100px;
+        color: #ffff;
+        position: relative;
+    }
+
+    .area3_1 .yajirusi {
+        position: absolute;
+        top: 50px;
+        left: 345px;
+        width: 20px;
+        height: auto;
+    }
+
+    .area3_1 .no1 {
+        font-size: 15px;
+    }
+
+    .area3_1 a .no2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .area3_1 .tel_a {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        background-color: rgb(239, 73, 43);
+        padding: 15px 0;
+        border-radius: 100px;
+        color: #ffff;
+    }
+
+    .area3_1 .tel_a .no2 {
+        font-size: 20px;
+    }
+
+    .area3_1 .tel_box {
+        display: flex;
+        align-items: center;
+        padding-top: 5px;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .area3_1 .tel_box .tel {
+        font-size: 35px;
+        padding: 0 10px 0 10px;
+        line-height: 1em;
+        margin-left: 25px;
+    }
+
+    .area3_1 .tel_box .tel_icon {
+        position: absolute;
+        top: 10px;
+        left: 0px;
+        width: 25px;
+    }
+
+    .area3_1 {
+        gap: 0px;
+        padding: 60px 0;
+    }
+
+
+
+    /* footer------------------------------- */
+
+
+    .page-fotter {
+        margin-top: 12vw;
+        padding: 12vw 0 8vw 0;
+    }
+
+    .page-fotter .text{
+        font-size: 3.5vw;
+    }
+
+    .page-fotter .container {
+        width: 90%;
+    }
+
+    .page-fotter .box {
+        margin-bottom: 12vw;
+    }
+
+    .page-fotter .box img {
+        width: 60vw;
+        margin-bottom: 4vw;
+    }
+
+    .page-fotter .box_2 {
+        grid-template-columns: 1fr 1fr;
+    }
+
+     /* 3つ目のmenuだけ横幅を全部使う */
+    .page-fotter .box_2 .menu:nth-child(3) {
+        grid-column: 1 / -1; /* 1列目から最後まで結合 */
+    }
+
+    .copy {
+        font-size: 2.5vw;
+        margin-top: 12vw;
+    }
+
+
+
+
+    /* contact------------------------------- */
+
+    .contact {
+        width: 100%;
+    }
+
+
+    form {
+        width: 100%;
+    }
+
+    form div {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .contact label {
+        margin-bottom: 1vw;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea, select {
+        height: 10vw;
+    }
+
+    input[type="text"], input[type="email"], input[type="tel"], select {
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+    input[type="image"]{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .contact .required {
+        font-size: 3vw;
+        padding: 0.5vw 1.3vw;
+        border-radius: 0.5vw;
+    }
+
+
+    form button {
+        padding: 3vw 10vw;
+        width: 100%;
+        margin-top: 10vw;
+    }
+
+    textarea {
+        height: 40vw;
+    }
+
+}
